@@ -63,7 +63,7 @@ public class SPN {
 
     public String encrypt(String text){
         String inByteString = new BigInteger(text.getBytes()).toString(2);
-        if(inByteString.length() % 16 != 0) inByteString += "1"
+        if(inByteString.length() % 16 != 0) inByteString += "1" + "0".repeat(inByteString.length() % 16 -1);
         //TODO SPLIT INTO 4*4 Pieces
 
         // Encrypt x_i

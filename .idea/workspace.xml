@@ -4,6 +4,9 @@
     <list default="true" id="fdce3776-7f1a-4198-aba8-71d0a39bf767" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/SPN_bonus.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/SPN_bonus/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/SPN_bonus/SPN.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/SPN_bonus/chiffre.txt" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/SPN.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/description.html" beforeDir="false" />
@@ -75,7 +78,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1582995862678</updated>
-      <workItem from="1582995864379" duration="8509000" />
+      <workItem from="1582995864379" duration="8570000" />
     </task>
     <servers />
   </component>
