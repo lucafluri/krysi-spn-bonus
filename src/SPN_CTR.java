@@ -58,6 +58,7 @@ public class SPN_CTR {
     }
 
     //Calculates the current SPN step and with current random y_i and current x_i
+    //then returns the xor between x_i and z_i
     private String SPN(BigInteger randIn, int round, String xs){
         String tmp = format(randIn.add(BigInteger.valueOf(round)).toString(2), 16);
         // Encrypt x_i
