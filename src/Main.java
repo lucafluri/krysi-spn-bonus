@@ -6,12 +6,13 @@ public class Main {
 
     public static void main(String[] args) throws IOException {
 
-        SPN spn = new SPN();
-        String toEncrypt = "Hello there";
-        spn.decrypt(spn.encrypt(toEncrypt));
+        SPN_CTR spn = new SPN_CTR();
 
-        String input = Files.readString(Paths.get("chiffre.txt"));
-        spn.decrypt(input);
+        spn.decrypt(Files.readString(Paths.get("chiffre.txt")));
+
+        spn.decrypt(spn.encrypt("Encryption and decryption test"));
+
+        spn.decrypt(Files.readString(Paths.get("decryptme.txt")));
 
 
     }
